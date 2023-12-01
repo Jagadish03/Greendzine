@@ -1,0 +1,64 @@
+.employee-search {
+    max-width: 400px;
+    margin-left: 54px;
+
+    /* border: 2px solid red; */
+
+  }
+  
+  .search-container{
+    display: flex;
+    margin-bottom: 10px;
+    border: 2px solid blue;
+    top: 200px;
+    left: 38px;
+    width: 300px;
+    height: 55px;
+   
+    box-shadow: inset 0px 4px 0px #00000040;
+    mix-blend-mode: normal;
+    /* border: 1px solid #595959; */
+    position: absolute;
+    outline: none;
+    border:none;
+    /* background: #5E5E5E82 0% 0% no-repeat padding-box; */
+    /* opacity: 0.4; */
+    /* filter: blur(2px); */
+}
+
+.search-container input
+{
+    background-color: #595959;
+    border-radius: 22px;
+    color: #fff;
+    padding: 25px;
+    font-size: 15px;
+}
+
+
+.search-container button {
+    padding: 8px 10px;
+    border-radius: 22px;
+    background-color: #595959;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+  }
+  
+  .result-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .employee-card {
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    z-index: 99;
+  }
